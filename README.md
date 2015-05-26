@@ -4,7 +4,9 @@
 
 安装:
 
+```bash
 npm install wanba-api-client --save
+```
 
 使用:
 
@@ -16,7 +18,7 @@ var wanba = require('./lib/wanba')(config);
 
 方法调用
 
-`
+```javascript
 //玩吧支付
 wanba.buyPlayzoneItem({
   openid:openid,
@@ -100,4 +102,4 @@ wanba.sendGamebarMsg({
   console.log(error,body);
 });
 
-`
+```
