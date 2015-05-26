@@ -10,9 +10,9 @@ npm install wanba-api-client --save
 
 `
 
-var config = require('./config');
-
-var wanba = require('./lib/wanba')(config);
+  var config = require('./config');
+  
+  var wanba = require('./lib/wanba')(config);
 
 `
 
