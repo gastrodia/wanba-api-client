@@ -7,9 +7,13 @@
 npm install wanba-api-client --save
 
 使用:
+
 `
+
 var config = require('./config');
+
 var wanba = require('./lib/wanba')(config);
+
 `
 
 方法调用
