@@ -5,17 +5,17 @@ if (require.main === module) {
     var wanba = require('./lib/wanba')(config);
 
     var openid = '70FA5AF447354687FA1E640366F9C3FC';
-    var openkey = 'B5DB07550F7E5B0025958FEC24E90CB9';
+    var openkey = '94A54EC1CA67BEF454A8FCEE37E4B593';
     var userip = '114.241.27.200';
 
     //获取用户信息
-    wanba.getUserInfo({
-      openid:openid,
-      openkey:openkey,
-      userip:userip
-    },function(error,body){
-      console.log(error,body);
-    });
+    // wanba.getUserInfo({
+    //   openid:openid,
+    //   openkey:openkey,
+    //   userip:userip
+    // },function(error,body){
+    //   console.log(error,body);
+    // });
 
     // //玩吧支付
     // wanba.buyPlayzoneItem({
@@ -77,7 +77,7 @@ if (require.main === module) {
     //
     //
     // //查询游戏用户信息和达人包月信息
-    // wanba.getUserInfo({
+    // wanba.getPlayzoneUserinfo({
     //   openid:openid,
     //   openkey:openkey,
     //   userip:userip,
